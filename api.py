@@ -15,9 +15,7 @@ async def process_request(item: RequestItem):
             "companyId": 1234,
             "corridor": {
                 "id": "uuid",
-                "content": {
-                "key": "value"
-                }
+                "content": null
             }
             }
     :param item:
@@ -30,19 +28,15 @@ async def process_request(item: RequestItem):
         validate.validate(item=item)
         base_path, file_name = director.get_path(item=item)
 
-        if item.eventType == "INSERT":
+        if item.eventType in ["UPDATE", "INSERT"]:
             director.write(base_path, file_name.strip(), item.corridor.content)
-        elif item.eventType == "UPDATE":
-            if director.check_file(base_path, file_name):
-                director.write(base_path, file_name.strip(), item.corridor.content)
-            else:
-                raise ValueError(f"File {base_path}/{file_name} doesn't exist")
+            return {"status": True, "message": "Request processed successfully"}
+    
         elif item.eventType == "DELETE":
-            director.delete(base_path, file_name)
+            delete_result = director.delete(base_path, file_name)
+            return delete_result
         else:
-            raise ValueError(f"Invalid eventType: {item.eventType}")
-
-        return {"status": True, "message": "Request processed successfully"}
+            return {"status": False, "message": f"Invalid eventType: {item.eventType}"}
 
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
@@ -51,4 +45,5 @@ async def process_request(item: RequestItem):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    import uvicorn
+    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True, workers=1)

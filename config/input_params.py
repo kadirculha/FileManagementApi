@@ -1,15 +1,13 @@
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 from pydantic import BaseModel, ValidationError, validator
 
 class Corridor(BaseModel):
     id: str
-    content: Dict[str, Any]  # İçeriğin yapısı net olmadığı için genel bir sözlük türünde tanımlandı
+    content: Optional[Any] = None  # İçeriğin boş olmasına izin veriyoruz
 
-    @validator("content")
-    def validate_content_data(cls, v):
-        if not v:
-            raise ValueError("content field cannot be empty")
-        return v
+    @validator('content', pre=True, always=True)
+    def set_default_content(cls, v):
+        return v if v is not None else {}
 
 class RequestItem(BaseModel):
     eventType: str

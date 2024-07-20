@@ -32,6 +32,6 @@ class Director:
         file_path = os.path.join(base_path, file_name)
         if os.path.exists(file_path):
             os.remove(file_path)
-            print(f"File {file_path} has been deleted successfully.")
+            return {"status": True, "message": f"File {file_path} has been deleted successfully."}
         else:
-            raise ValueError(f"File does not exist.")
+            return {"status":False,"message": f"File does not exist."}

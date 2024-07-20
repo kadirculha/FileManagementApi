@@ -24,9 +24,9 @@ class InputValidate:
         if not isinstance(item_dict.get("corridor").get("id"), str):
             raise ValueError("corridor.id should be a string")
 
-        # validate corridor.content
-        if not isinstance(item_dict.get("corridor").get("content"), dict):
-            raise ValueError("corridor.content should be a dict")
+        # # validate corridor.content
+        # if not isinstance(item_dict.get("corridor").get("content"), dict):
+        #     raise ValueError("corridor.content should be a dict")
 
-        if not item_dict.get("corridor").get("content"):
-            raise ValueError("corridor.content field cannot be empty")
+        # if not item_dict.get("corridor").get("content"):
+        #     raise ValueError("corridor.content field cannot be empty")
