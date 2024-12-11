@@ -1,6 +1,8 @@
 from typing import Dict, Any, Optional
 from pydantic import BaseModel, ValidationError, validator
 
+
+
 class Corridor(BaseModel):
     id: str
     content: Optional[Any] = None  # İçeriğin boş olmasına izin veriyoruz
@@ -8,6 +10,7 @@ class Corridor(BaseModel):
     @validator('content', pre=True, always=True)
     def set_default_content(cls, v):
         return v if v is not None else {}
+
 
 class RequestItem(BaseModel):
     eventType: str
