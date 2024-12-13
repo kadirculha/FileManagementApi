@@ -21,7 +21,7 @@ def notify_ai_api(item : RequestItem):
     :param content: Corridor içeriği (DELETE için None olabilir)
     """
     # ai_api_url = "http://localhost:8090/webhook_update"  # AI API webhook URL'si
-    ai_api_url = "http://3.69.36.239:8010/webhook_update" 
+    ai_api_url = "http://3.69.36.239:8000/webhook_update" 
     # payload = {
     #     "eventType": item.eventType,
     #     "companyId": item.companyId,
