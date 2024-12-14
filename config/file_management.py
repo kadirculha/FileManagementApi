@@ -13,8 +13,12 @@ class Director:
     def get_path(self, item: RequestItem):
         if item.companyId:
             self.base_path = os.path.join(self.base_path, str(item.companyId))
-
-        self.file_name = f"{item.corridor.id}.json"
+        try:
+            print(f"koridor data:  {item.corridor.content['id']}")
+            file_name = item.corridor.content['id']
+            self.file_name = f"{file_name}.json"
+        except (KeyError, TypeError, AttributeError):
+            self.file_name = f"{item.corridor.id}.json"
         return self.base_path, self.file_name
 
     def check_file(self, base_path, file_name):

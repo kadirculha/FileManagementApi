@@ -58,6 +58,7 @@ async def process_request(item: RequestItem):
 
         validate.validate(item=item)
         base_path, file_name = director.get_path(item=item)
+        print(f"koridor data: {file_name}")
 
         if item.eventType in ["UPDATE", "INSERT"]:
             # Corridor'u yaz
@@ -88,4 +89,4 @@ async def process_request(item: RequestItem):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("api:app", host="0.0.0.0", port=8080, reload=False, workers=4)
+    uvicorn.run("api:app", host="0.0.0.0", port=8080, workers=3)

@@ -1,0 +1,208 @@
+{
+    "answer": "Tabi ki nasıl bir telefon istersiniz",
+    "children": [
+        {
+            "answer": "Lütfen model belirtin",
+            "children": [
+                {
+                    "answer": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "children": [
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Siyah",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "dcb5ea50-43b5-47d4-908f-26ff1ea3d289",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#6e3859e6-2889-49a8-8453-35f08541dd58#08516d21-a371-4122-b24b-94e24bfa07e9#dcb5ea50-43b5-47d4-908f-26ff1ea3d289",
+                            "type": "QUESTION_ANSWER"
+                        },
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Beyaz",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "fd738e44-ff4b-448b-95cb-0f2b0b93f4ca",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#6e3859e6-2889-49a8-8453-35f08541dd58#08516d21-a371-4122-b24b-94e24bfa07e9#fd738e44-ff4b-448b-95cb-0f2b0b93f4ca",
+                            "type": "QUESTION_ANSWER"
+                        }
+                    ],
+                    "context": "Galaxy s24",
+                    "description": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "id": "08516d21-a371-4122-b24b-94e24bfa07e9",
+                    "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#6e3859e6-2889-49a8-8453-35f08541dd58#08516d21-a371-4122-b24b-94e24bfa07e9",
+                    "type": "QUESTION_ANSWER"
+                },
+                {
+                    "answer": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "children": [
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Siyah",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "e3fa8dfa-9be5-4918-9cab-3e5bf4e3494f",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#6e3859e6-2889-49a8-8453-35f08541dd58#9e637da8-58c5-408d-9dcc-d70551c6e761#e3fa8dfa-9be5-4918-9cab-3e5bf4e3494f",
+                            "type": "QUESTION_ANSWER"
+                        },
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Beyaz",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "53d38ae9-5198-4b11-b080-1d14f7f1b6f3",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#6e3859e6-2889-49a8-8453-35f08541dd58#9e637da8-58c5-408d-9dcc-d70551c6e761#53d38ae9-5198-4b11-b080-1d14f7f1b6f3",
+                            "type": "QUESTION_ANSWER"
+                        }
+                    ],
+                    "context": "Galaxy S25",
+                    "description": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "id": "9e637da8-58c5-408d-9dcc-d70551c6e761",
+                    "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#6e3859e6-2889-49a8-8453-35f08541dd58#9e637da8-58c5-408d-9dcc-d70551c6e761",
+                    "type": "QUESTION_ANSWER"
+                }
+            ],
+            "context": "Android",
+            "description": "Lütfen model belirtin",
+            "id": "6e3859e6-2889-49a8-8453-35f08541dd58",
+            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#6e3859e6-2889-49a8-8453-35f08541dd58",
+            "type": "QUESTION_ANSWER"
+        },
+        {
+            "answer": "Lütfen Model Belirtin",
+            "children": [
+                {
+                    "answer": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "children": [
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Siyah",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "652ee39e-29c3-4b75-ae09-2ed6c5b4434b",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#419f1bbc-1c76-4f10-b85b-3896e94169ff#795038d2-c92c-46f9-b418-4a731651394e#652ee39e-29c3-4b75-ae09-2ed6c5b4434b",
+                            "type": "QUESTION_ANSWER"
+                        },
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Beyaz",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "e29ae8da-923a-466e-a167-e9939ec37fe1",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#419f1bbc-1c76-4f10-b85b-3896e94169ff#795038d2-c92c-46f9-b418-4a731651394e#e29ae8da-923a-466e-a167-e9939ec37fe1",
+                            "type": "QUESTION_ANSWER"
+                        }
+                    ],
+                    "context": "Iphone 15",
+                    "description": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "id": "795038d2-c92c-46f9-b418-4a731651394e",
+                    "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#419f1bbc-1c76-4f10-b85b-3896e94169ff#795038d2-c92c-46f9-b418-4a731651394e",
+                    "type": "QUESTION_ANSWER"
+                },
+                {
+                    "answer": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "children": [
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Siyah",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "94435d88-dce2-4854-9173-afc62c07a4d3",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#419f1bbc-1c76-4f10-b85b-3896e94169ff#b46c08a2-1bf3-4bdc-a087-ae7e796bc09a#94435d88-dce2-4854-9173-afc62c07a4d3",
+                            "type": "QUESTION_ANSWER"
+                        },
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Beyaz",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "8b6590f5-21c2-4c05-8a82-a349e2e4bbca",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#419f1bbc-1c76-4f10-b85b-3896e94169ff#b46c08a2-1bf3-4bdc-a087-ae7e796bc09a#8b6590f5-21c2-4c05-8a82-a349e2e4bbca",
+                            "type": "QUESTION_ANSWER"
+                        }
+                    ],
+                    "context": "Iphone 16",
+                    "description": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "id": "b46c08a2-1bf3-4bdc-a087-ae7e796bc09a",
+                    "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#419f1bbc-1c76-4f10-b85b-3896e94169ff#b46c08a2-1bf3-4bdc-a087-ae7e796bc09a",
+                    "type": "QUESTION_ANSWER"
+                }
+            ],
+            "context": "IOS",
+            "description": "Lütfen Model Belirtin",
+            "id": "419f1bbc-1c76-4f10-b85b-3896e94169ff",
+            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#419f1bbc-1c76-4f10-b85b-3896e94169ff",
+            "type": "QUESTION_ANSWER"
+        },
+        {
+            "answer": "Lütfen Model Belirtin",
+            "children": [
+                {
+                    "answer": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "children": [
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Siyah",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "9f10e63a-f95e-4f6e-9ceb-9575341e7b9f",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#37b0981d-4971-4d68-ac64-9b99503fb2f6#13310f8a-839f-4406-8448-f91f6004fb66#9f10e63a-f95e-4f6e-9ceb-9575341e7b9f",
+                            "type": "QUESTION_ANSWER"
+                        },
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Beyaz",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "9782b309-9c6a-4080-ac35-4869b7b11f6b",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#37b0981d-4971-4d68-ac64-9b99503fb2f6#13310f8a-839f-4406-8448-f91f6004fb66#9782b309-9c6a-4080-ac35-4869b7b11f6b",
+                            "type": "QUESTION_ANSWER"
+                        }
+                    ],
+                    "context": "Huawei 24",
+                    "description": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "id": "13310f8a-839f-4406-8448-f91f6004fb66",
+                    "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#37b0981d-4971-4d68-ac64-9b99503fb2f6#13310f8a-839f-4406-8448-f91f6004fb66",
+                    "type": "QUESTION_ANSWER"
+                },
+                {
+                    "answer": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "children": [
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Siyah",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "b5971668-d6f8-4b67-bd5f-30ee1be83e8d",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#37b0981d-4971-4d68-ac64-9b99503fb2f6#409d9b8c-fff4-4e90-9775-72dc7b10df2a#b5971668-d6f8-4b67-bd5f-30ee1be83e8d",
+                            "type": "QUESTION_ANSWER"
+                        },
+                        {
+                            "answer": "Telefon Gönderiliyor",
+                            "children": [],
+                            "context": "Beyaz",
+                            "description": "Telefon Gönderiliyor",
+                            "id": "4ce8a5fb-d1a3-4478-981b-d607f0e9c267",
+                            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#37b0981d-4971-4d68-ac64-9b99503fb2f6#409d9b8c-fff4-4e90-9775-72dc7b10df2a#4ce8a5fb-d1a3-4478-981b-d607f0e9c267",
+                            "type": "QUESTION_ANSWER"
+                        }
+                    ],
+                    "context": "Huawei 25",
+                    "description": "Lütfen Telefonunuzun Rengini Belirtin",
+                    "id": "409d9b8c-fff4-4e90-9775-72dc7b10df2a",
+                    "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#37b0981d-4971-4d68-ac64-9b99503fb2f6#409d9b8c-fff4-4e90-9775-72dc7b10df2a",
+                    "type": "QUESTION_ANSWER"
+                }
+            ],
+            "context": "Huawei",
+            "description": "Lütfen Model Belirtin",
+            "id": "37b0981d-4971-4d68-ac64-9b99503fb2f6",
+            "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97#37b0981d-4971-4d68-ac64-9b99503fb2f6",
+            "type": "QUESTION_ANSWER"
+        }
+    ],
+    "context": "Telefon satın alacağım",
+    "description": "Tabi ki nasıl bir telefon istersiniz",
+    "id": "e1a1bee3-f04a-47ab-8a3e-769efd154b97",
+    "path": "e1a1bee3-f04a-47ab-8a3e-769efd154b97",
+    "type": "QUESTION_ANSWER"
+}
